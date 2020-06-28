@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="10dp"/>    //圆角属性
+    <gradient android:startColor="#8a8a8a"
+        android:endColor="#2c2c2c" />    //渐变
+</shape>

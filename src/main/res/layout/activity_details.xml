@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailsActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/sc1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+        <LinearLayout
+            android:layout_marginTop="-230dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginLeft="280dp"
+                android:src="@drawable/fenxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/elli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="153dp"
+            android:background="@drawable/details"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="clip_vertical">
+            <ImageView
+                android:src="@drawable/xianshimiaosha"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="22dp"
+                android:text="￥30.00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginLeft="50dp"
+                    android:textColor="#f90606"
+                    android:text="距离结束还剩"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:background="#FBE261"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginLeft="50dp"
+                        android:text="06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="-5dp"
+                        android:textColor="@color/colorWhite"
+                        android:text="："
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:background="#FBE261"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorWhite"
+                        android:text="30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="-5dp"
+                        android:textColor="@color/colorWhite"
+                        android:text="："
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:background="#FBE261"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorWhite"
+                        android:text="15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="《王者荣耀》武则天 海洋之心限量折扣10月23日劲爆开启！"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/details1"
+                    android:layout_width="350dp"
+                    android:layout_height="35dp"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="10dp"
+                        android:text="开通会员，享受更多权益"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="150dp"
+                        android:textColor="#000000"
+                        android:text="查看详情"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_marginTop="1dp"
+                        android:src="@drawable/return_right"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="商品简介：皮肤的风格,全身都是粉色，动画特效也少女心十足！幻海之心的登场特效画面非常抢眼，武则天在粉色旋涡小鱼的包围中从地上穿越而来，不可否认的是这是峡谷中登场最棒的特效皮肤之一。"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/computer"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:text="游戏平台：王者荣耀"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_marginLeft="40dp"
+                        android:src="@drawable/category"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:text="游戏平台：王者荣耀"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:text="玩家评分"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_marginLeft="270dp"
+                        android:src="@drawable/return_right"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:text="皮肤详情"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:src="@drawable/wzt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <RadioButton
+            android:id="@+id/rb_index"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/kefu"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@drawable/te_text"
+            android:textSize="15dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/dianpu"
+            android:gravity="center"
+            android:text="店铺"
+            android:textColor="@drawable/te_text"
+            android:textSize="15dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_publish"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/gouwuche"
+            android:gravity="center"
+            android:text="购物车"
+            android:textColor="@drawable/te_text"
+            android:textSize="15dp"/>
+        <Button
+            android:background="@drawable/cart"
+            android:text="加入购物车"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buy"
+            android:text="购买"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+    </RadioGroup>
+
+</LinearLayout>
